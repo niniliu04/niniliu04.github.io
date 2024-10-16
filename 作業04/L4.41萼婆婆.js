@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"L4_atlas_1", frames: [[662,0,518,525],[1182,401,410,479],[1182,0,499,399],[0,0,660,661],[1594,401,427,431]]}
+		{name:"L4.41萼婆婆_atlas_1", frames: [[662,0,518,525],[1182,401,410,479],[1182,0,499,399],[0,0,660,661],[1594,401,427,431]]}
 ];
 
 
@@ -28,35 +28,35 @@ lib.ssMetadata = [
 
 
 (lib.萼婆婆01 = function() {
-	this.initialize(ss["L4_atlas_1"]);
+	this.initialize(ss["L4.41萼婆婆_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.萼婆婆02 = function() {
-	this.initialize(ss["L4_atlas_1"]);
+	this.initialize(ss["L4.41萼婆婆_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.萼婆婆03 = function() {
-	this.initialize(ss["L4_atlas_1"]);
+	this.initialize(ss["L4.41萼婆婆_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.彩色鉛筆01 = function() {
-	this.initialize(ss["L4_atlas_1"]);
+	this.initialize(ss["L4.41萼婆婆_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.遮色片 = function() {
-	this.initialize(ss["L4_atlas_1"]);
+	this.initialize(ss["L4.41萼婆婆_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -330,7 +330,7 @@ if (reversed == null) { reversed = false; }
 
 
 // stage content:
-(lib.L4 = function(mode,startPosition,loop,reversed) {
+(lib.L441萼婆婆 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -519,14 +519,14 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-14.7,-14.7,1140.8,1021.2);
 // library properties:
 lib.properties = {
-	id: '4FBCC5DEC7183047B05AF3CD21C1A150',
+	id: 'DB0603A1E773C44D8B2D1696E8196CDB',
 	width: 660,
 	height: 661,
 	fps: 20,
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/L4_atlas_1.png?1729042224882", id:"L4_atlas_1"}
+		{src:"images/L4.41萼婆婆_atlas_1.png?1729043036218", id:"L4.41萼婆婆_atlas_1"}
 	],
 	preloads: []
 };
@@ -564,7 +564,7 @@ an.bootstrapCallback=function(fnCallback) {
 };
 
 an.compositions = an.compositions || {};
-an.compositions['4FBCC5DEC7183047B05AF3CD21C1A150'] = {
+an.compositions['DB0603A1E773C44D8B2D1696E8196CDB'] = {
 	getStage: function() { return exportRoot.stage; },
 	getLibrary: function() { return lib; },
 	getSpriteSheet: function() { return ss; },
